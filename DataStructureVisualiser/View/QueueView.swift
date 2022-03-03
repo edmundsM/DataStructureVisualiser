@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  QueueView.swift
 //  DataStructureVisualiser
 //
 //  Created by Edmunds, Maximilian (NA) on 03/03/2022.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct QueueView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("kyu")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct QueueView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        QueueView()
     }
 }

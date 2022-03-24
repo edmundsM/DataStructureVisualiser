@@ -83,6 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8A4C19E27EC9651003C538E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F8F71F7B27D0E37E00611F5E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +113,7 @@
 		F8F71F8627D0E37E00611F5E /* DataStructureVisualiser */ = {
 			isa = PBXGroup;
 			children = (
+				F8A4C19E27EC9651003C538E /* Extensions */,
 				F8F71FB827D0E69200611F5E /* DataStructures */,
 				F8F71FB127D0E50D00611F5E /* View */,
 				F8F71F8727D0E37E00611F5E /* DataStructureVisualiserApp.swift */,

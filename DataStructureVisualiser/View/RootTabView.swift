@@ -17,7 +17,7 @@ struct RootTabView: View {
                 }
             QueueView()
                     .tabItem {
-                        Image(systemName: "person.2")
+                        Image(systemName: "person.3.sequence")
                         Text("Queue")
                     }
             LinkedListView()

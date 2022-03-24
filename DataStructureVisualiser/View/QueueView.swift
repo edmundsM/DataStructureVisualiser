@@ -9,7 +9,7 @@ import SwiftUI
 
 struct QueueView: View {
     var body: some View {
-        Text("kyu")
+        Text("Queue")
     }
 }
 

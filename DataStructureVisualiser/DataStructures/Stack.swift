@@ -14,8 +14,14 @@ class Stack: ObservableObject {
     
     func displayStack() -> [Int] {
         var tempArray: [Int] = []
+        var stackLength = stack.count
         for item in stack {
-            tempArray.append(item)
+            if stackLength < 7 {
+                tempArray.insert(0, at: 0)
+                stackLength += 1
+            } else {
+                tempArray.append(item)
+            }
         }
         return tempArray
     }
